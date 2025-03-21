@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Глава 3: Формы в HTML</title>
+</head>
+<body>
+    <h1>Глава 3: Формы в HTML</h1>
+    <p>Формы используются для сбора данных от пользователей. Они могут содержать текстовые поля, кнопки, переключатели и другие элементы.</p>
+    <p>Основные элементы форм:</p>
+    <ul>
+        <li><strong>&lt;form&gt;</strong> — контейнер для формы.</li>
+        <li><strong>&lt;input&gt;</strong> — поле ввода.</li>
+        <li><strong>&lt;textarea&gt;</strong> — многострочное текстовое поле.</li>
+        <li><strong>&lt;button&gt;</strong> — кнопка.</li>
+        <li><strong>&lt;select&gt;, &lt;option&gt;</strong> — выпадающий список.</li>
+    </ul>
+    <p>Пример формы:</p>
+    <pre>
+&lt;form action="/submit" method="post"&gt;
+    &lt;label for="name"&gt;Имя:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;
+    &lt;label for="message"&gt;Сообщение:&lt;/label&gt;
+    &lt;textarea id="message" name="message"&gt;&lt;/textarea&gt;&lt;br&gt;
+    &lt;button type="submit"&gt;Отправить&lt;/button&gt;
+&lt;/form&gt;
+    </pre>
+</body>
+</html>

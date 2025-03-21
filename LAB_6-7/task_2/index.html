@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица Добычи Драгоценных Камней</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto; 
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #FF0000;
+            color: #FFFFFF; 
+        }
+        .rock {
+            text-align: left;
+            color: #FFFFFF;
+            background-color: #009999; 
+        }
+    </style>
+</head>
+<body>
+
+<h4>Добыча драгоценных камней</h4>
+
+<table>
+    <tr>
+        <th></th>
+        <th>2014</th>
+        <th>2015</th>
+        <th>2016</th>
+    </tr>
+    <tr>
+        <td class="rock">Сапфиры</td>
+        <td rowspan="2">1483</td>
+        <td>4532</td>
+        <td>6743</td>
+    </tr>
+    <tr>
+        <td class="rock">Рубины</td>
+        <td>3835</td>
+        <td>7482</td>
+    </tr>
+    <tr>
+        <td class="rock">Алмазы</td>
+        <td>683</td>
+        <td colspan="2">238</td>
+    </tr>
+</table>
+
+</body>
+</html>
